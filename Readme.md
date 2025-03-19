@@ -7,7 +7,7 @@
 This script will:
 Accept a URL from an environment variable.
 Use Puppeteer to open the URL in a headless Chromium browser.
-Extract the page title and first <h1> heading.
+Extract the page title and first heading.
 Save the scraped data as scraped_data.json.
 
 # Step 2: Implement server.py (Flask Server)
