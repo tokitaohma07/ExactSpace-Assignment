@@ -2,7 +2,38 @@
 
 # Web Scraper & Flask API
 
-This project scrapes web content using Puppeteer and serves the extracted data using Flask.
+# Step 1: Implement scrape.js (Node.js Scraper)
+
+This script will:
+
+Accept a URL from an environment variable.
+Use Puppeteer to open the URL in a headless Chromium browser.
+Extract the page title and first <h1> heading.
+Save the scraped data as scraped_data.json.
+Here's the scrape.js file:
+
+# Step 2: Implement server.py (Flask Server)
+
+This script will:
+
+Read scraped_data.json from the filesystem.
+Serve the scraped content as JSON via an HTTP endpoint.
+Here's the server.py file:
+
+# Step 3: Define Dependencies (package.json)
+
+We'll need dependency files for both Node.js and Python.
+
+package.json (Node.js Dependencies)
+
+# Stage 5:  Dcokerfile
+
+Node.js Scraper
+
+# Stage 6: Requirements.txt
+
+Flask requirements
+
 
 ## Setup
 
