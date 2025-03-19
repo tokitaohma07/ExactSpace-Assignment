@@ -21,11 +21,11 @@ Serve the scraped content as JSON via an HTTP endpoint.
 We'll need dependency files for both Node.js and Python.
 package.json (Node.js Dependencies)
 
-# Stage 5:  Dcokerfile
+# Stage 4:  Dcokerfile
 
 Node.js Scraper
 
-# Stage 6: Requirements.txt
+# Stage 5: Requirements.txt
 
 Flask requirements
 
