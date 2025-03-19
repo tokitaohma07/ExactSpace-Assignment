@@ -1,5 +1,3 @@
-# server.py - Flask API
-
 from flask import Flask, jsonify
 import json
 
